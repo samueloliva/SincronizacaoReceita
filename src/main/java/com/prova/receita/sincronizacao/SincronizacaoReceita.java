@@ -11,11 +11,8 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
-import org.springframework.stereotype.Controller;
-
 import com.prova.receita.service.ReceitaService;
 
-@Controller
 public class SincronizacaoReceita {	
 	private String colunaAgencia = "agencia";
 	private String colunaConta = "conta"; 
